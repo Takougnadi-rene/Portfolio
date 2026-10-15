@@ -1,179 +1,110 @@
-<!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Decouvrir mes Projets</title>
-        <link rel="stylesheet" href="bootstrap.css">
-        <link rel="stylesheet" href="bootstrap.min.css">
-        <script src="bootstrap.js"></script>
-        <script src="bootstrap.bundle.min.js"></script>
-        <script src="jquery.js"></script>
-    </head>
-
-    <body class="bg-success">
-        <header style="position: fixed;  left: 0; right: 0; background-color: #002f66; color: white; z-index: 1000;">    
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <a href="a_propos.html" class="nav-link"><h5 class="navbar-brand">Essozimna René TAKOUGNADI</h5></a>
-                        
-                <button class="navbar-toggler" float="right" data-bs-toggle="collapse" data-bs-target="#menu">
-                Menu
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                    <div class="collapse navbar-collapse" id="menu">
-                        <ul class="navbar-nav ms-auto gap-2">
-                            <li class="nav-item"><a href="index.html" class="nav-link d-inline text-white">Acceuil</a></li>
-                            <li class="nav-item dropdown">
-                                <a href="a_propos.html" class="nav-link d-inline text-white">A propos de moi</a>
-
-                                <a href="#" class="nav-link dropdown-toggle dropdown-toggle-split d-inline" role="button" data-bs-toggle="dropdown"></a>                                  
-                                <ul class="dropdown-menu">
-                                    <li class="dropdown"><a href="#moi" class="dropdown-item">Presentation</a></li>
-                                    <li class="dropdown"><a href="#comp" class="dropdown-item">Compétences</a></li>
-                                    <li class="dropdown"><a href="#parcours" class="dropdown-item">Parcours</a></li>
-                                    <li class="dropdown"><a href="#exppro" class="dropdown-item">Expérience proffessionnelle</a></li>
-                                </ul>   
-                            </li>
-                            <li class="nav-item"><a href="projet.html" class="nav-link d-inline text-white">Mes projets</a></li>
-                            <li class="nav-item"><a href="contact.html" class="nav-link d-inline text-white">Me contacter</a></li>
-                        </ul>                                               
-                    </div>                    
-                </div>
-                <select style="float: right; border: none;" class="bg-transparent text-light d-block-inline">                       
-                    <option class="bg-light text-primary">🌏English(en)</option>
-                    <option class="bg-light text-primary">🌏Français(fr)</option>
-                </select>   
-                <div width="100%" height="100px" class="bg-light"></div>           
-            </nav>                         
-        </header><br><br><br>
-
-        <div class="container py-4">
-            <div class="text-center text-dark bg-light">
-                <h1 class="fw-bold">Mes Projets</h1>
-                <p class="lead">
-                    Voici quelques réalisations que j’ai conçues dans le cadre de mon apprentissage
-                </p>
-            </div>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4 my-4 bg-warning">
-                    <div class="card h-100 shadow">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Site Web Église</h5>
-                            <p class="card-text">
-                                Création d’un site web moderne permettant de présenter les activités,
-                                événements et informations importantes d’une église.
-                            </p>
-                            <p class="text-muted mt-auto">📅 Mars 2026</p>
-                            <div>
-                                <span class="badge bg-primary">HTML</span>
-                                <span class="badge bg-success">CSS</span>
-                                <span class="badge bg-warning text-dark">Bootstrap</span>
-                            </div>
-                        </div>
-                        <div class="card-footer bg-white border-0">
-                            <a href="#" class="btn btn-primary w-100">Voir le projet</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 my-4 bg-warning">
-                    <div class="card h-100 shadow">    
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Portfolio Personnel</h5>
-                            <p class="card-text">
-                                Développement d’un portfolio professionnel pour présenter mes compétences,
-                                mes expériences et mes projets.
-                            </p>
-                            <p class="text-muted mt-auto">📅 Février 2026</p>
-                            <div>
-                                <span class="badge bg-primary">HTML</span>
-                                <span class="badge bg-success">Bootstrap</span>
-                                <span class="badge bg-warning text-dark">JavaScript</span>
-                            </div>
-                        </div>
-                        <div class="card-footer bg-white border-0">
-                            <a href="#" class="btn btn-primary w-100">Voir le projet</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 my-4 bg-warning">
-                    <div class="card h-100 shadow">
-                        
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Application To-Do List</h5>
-
-                            <p class="card-text">
-                                Application web permettant de gérer les tâches quotidiennes avec ajout,
-                                suppression et validation des activités.
-                            </p>
-                            <p class="text-muted mt-auto">📅 Avril 2026</p>
-                            <div>
-                                <span class="badge bg-primary">JavaScript</span>
-                                <span class="badge bg-success">CSS</span>
-                                <span class="badge bg-warning text-dark">HTML</span>
-                            </div>
-                        </div>
-                        <div class="card-footer bg-white border-0">
-                            <a href="#" class="btn btn-primary w-100">Voir le projet</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 my-4 bg-warning">
-                    <div class="card h-100 border-warning shadow">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">
-                            Plateforme UK Bus
-                                <span class="badge bg-warning text-dark">En cours</span>
-                            </h5>
-                            <p class="card-text">
-                                Développement d’une plateforme d’achat et d'usage de ticket de bus en ligne offrant
-                                aux utilisateurs (etudiants) la facilite d'achat des tickets, ne plus demander des tickets aux arrets.
-                            </p>
-                            <p class="text-muted mt-auto">📅 Prévu : Juin 2026</p>
-                            <div>
-                                <span class="badge bg-primary">React</span>
-                                <span class="badge bg-success">Node.js</span>
-                                <span class="badge bg-dark">MongoDB</span>
-                            </div>
-                        </div>         
-                    </div>
-                </div>
-            </div>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#182a45">
+    <title>Projects | René Takougnadi</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="site.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar navbar-expand-lg container" aria-label="Main navigation">
+        <a class="navbar-brand" href="index.html">RENÉ TAKOUGNADI</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="a_propos.html">About</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="projet.html">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
         </div>
-    <!-- ffooteur-->
+      </nav>
+    </header>
 
-        <footer class="text-center p-3" style="background-color: #002f66; color: white;">
-            <div style="float: left;" class="d-inline">
-                <a href="https://univ-kara.org/">
-                    <img height="40px" src="images/logouk.png" alt="universite de kara">
-                </a>
-                <span class="h5">| KingBrain</span>
-            </div>
-            <div>
-                <div style="float: right;">
-                    <a href="mailto:takougnadie.rene@gmail.com" target="_blank"><img class="rounded" width="30px" src="images/gmail.png" alt="mail"></a>
-                    <a href="https://www.linkedin.com/in/essozimna-ren%C3%A9-takougnadi-261303391/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BmwNUNf1jSlqGLLyle1q9UQ%3D%3D" target="_blank">
-                        <img class="rounded" src="images/linkdin.jpg" alt="linkdin" width="30px">
-                    </a>
-                    <a href="https://web.facebook.com/stories/create/" target="_blank">
-                        <img class="rounded" src="images/facebook.jpg" alt="facebook" width="30px">
-                    </a>
-                    <a href="https://wa.me/22897166139" target="_blank">
-                        <img class="rounded" src="images/whatsapp.jpg" alt="whatsapp" width="30px">
-                    </a>
-                    <a href="https://t.me/Kingbrain2" target="_blank">
-                        <img class="rounded" src="images/telegram.jpg" alt="telegram" width="30px">
-                    </a>
-                    <a href="https://www.youtube.com/@RenéTakougnadi" target="_blank">
-                        <img class="rounded" src="images/youtube.jpg" alt="youtube" width="30px">
-                    </a>
-                    <a href="https://www.tiktok.com/@renetakougnadi" target="_blank">
-                        <img class="rounded" src="images/tiktok.jpg" alt="tiktok" width="30px">
-                    </a>
+    <main>
+      <section class="page-heading">
+        <div class="container">
+          <span class="eyebrow">Selected work</span>
+          <h1>Projects</h1>
+          <p>A few things I’ve created while learning, experimenting, and solving everyday problems.</p>
+        </div>
+      </section>
 
-                </div>
-            </div>            
-            <br><br><hr>
-            <p class="d-inline">&copy; copyright 2026-rené Takougnadi | KingBrain | takougnadie.rene@gmail.com | mention légal Tout droit reservé</p><br>        
-        </footer>
-    </body>
+      <section class="container section-space">
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card">
+              <div class="card-body">
+                <h2 class="card-title h4">Church Website</h2>
+                <p class="card-text">A modern website designed to share a church’s activities, events, and important information.</p>
+                <p class="small muted mt-4">March 2026</p>
+                <span class="badge badge-tech">HTML</span><span class="badge badge-tech">CSS</span><span class="badge badge-tech">Bootstrap</span>
+              </div>
+              <div class="card-footer"><span class="muted small">Project details coming soon</span></div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card">
+              <div class="card-body">
+                <h2 class="card-title h4">Personal Portfolio</h2>
+                <p class="card-text">A professional portfolio for presenting my skills, experience, and projects.</p>
+                <p class="small muted mt-4">February 2026</p>
+                <span class="badge badge-tech">HTML</span><span class="badge badge-tech">Bootstrap</span><span class="badge badge-tech">JavaScript</span>
+              </div>
+              <div class="card-footer"><span class="muted small">Project details coming soon</span></div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card">
+              <div class="card-body">
+                <h2 class="card-title h4">To-Do List App</h2>
+                <p class="card-text">A web app for managing everyday tasks, with options to add, remove, and complete activities.</p>
+                <p class="small muted mt-4">April 2026</p>
+                <span class="badge badge-tech">JavaScript</span><span class="badge badge-tech">CSS</span><span class="badge badge-tech">HTML</span>
+              </div>
+              <div class="card-footer"><span class="muted small">Project details coming soon</span></div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card">
+              <div class="card-body">
+                <h2 class="card-title h4">UK Bus Ticketing Platform</h2>
+                <p class="card-text">A platform in development to help students buy and use bus tickets online, without needing to ask for tickets at bus stops.</p>
+                <p class="small muted mt-4">Planned for June 2026 · In progress</p>
+                <span class="badge badge-tech">React</span><span class="badge badge-tech">Node.js</span><span class="badge badge-tech">MongoDB</span>
+              </div>
+              <div class="card-footer"><span class="muted small">In progress</span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a href="https://www.alueducation.com/" target="_blank" rel="noopener noreferrer" aria-label="African Leadership University website"><img class="alu-logo" src="images/alu-logo.png" alt="African Leadership University"></a>
+            <span>| KingBrain</span>
+          </div>
+          <div class="social-links" aria-label="Social media">
+            <a href="mailto:takougnadie.rene@gmail.com" aria-label="Email René"><img src="images/gmail.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/essozimna-ren%C3%A9-takougnadi-261303391/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><img src="images/linkdin.jpg" alt=""></a>
+            <a href="https://web.facebook.com/stories/create/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><img src="images/facebook.jpg" alt=""></a>
+            <a href="https://wa.me/22897166139" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><img src="images/whatsapp.jpg" alt=""></a>
+            <a href="https://t.me/Kingbrain2" target="_blank" rel="noopener noreferrer" aria-label="Telegram"><img src="images/telegram.jpg" alt=""></a>
+            <a href="https://www.youtube.com/@RenéTakougnadi" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><img src="images/youtube.jpg" alt=""></a>
+            <a href="https://www.tiktok.com/@renetakougnadi" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><img src="images/tiktok.jpg" alt=""></a>
+          </div>
+        </div>
+        <div class="footer-meta">&copy; 2026 René Takougnadi | KingBrain | <a href="mailto:takougnadie.rene@gmail.com">takougnadie.rene@gmail.com</a> | All rights reserved</div>
+      </div>
+    </footer>
+    <script src="bootstrap.bundle.min.js"></script>
+  </body>
 </html>
