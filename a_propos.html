@@ -1,219 +1,142 @@
-<!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Me connaitre</title>
-        <link rel="stylesheet" href="bootstrap.css">
-        <link rel="stylesheet" href="bootstrap.min.css">
-        <script src="bootstrap.js"></script>
-        <script src="bootstrap.bundle.min.js"></script>
-        <script src="jquery.js"></script>
-    </head>
-  <body class="bg-success text-light">
-
-    <header style="position: fixed;  left: 0px; right: 0px; background-color: #002f66; color: white; z-index:1000;">    
-              <nav class="navbar navbar-expand-lg navbar-dark">
-                  <a href="a_propos.html" class="nav-link"><h5 class="navbar-brand">Essozimna René TAKOUGNADI</h5></a>
-                  <button class="navbar-toggler" float="right" data-bs-toggle="collapse" data-bs-target="#menu">
-                      Menu
-                      <span class="navbar-toggler-icon"></span>
-                  </button>
-                      <div class="collapse navbar-collapse" id="menu">
-                          <ul class="navbar-nav ms-auto gap-2">
-                              <li class="nav-item"><a href="index.html" class="nav-link d-inline text-white" >Acceuil</a></li>
-                              <li class="nav-item dropdown">
-                                  <a href="a_propos.html" class="nav-link d-inline text-white">A propos de moi</a>
-                                  <a href="#" class="nav-link dropdown-toggle dropdown-toggle-split d-inline" role="button" data-bs-toggle="dropdown"></a>                                      
-                                  <ul class="dropdown-menu">
-                                      <li class="dropdown"><a href="#moi" class="dropdown-item">Presentation</a></li>
-                                      <li class="dropdown"><a href="#comp" class="dropdown-item">Compétences</a></li>
-                                      <li class="dropdown"><a href="#parcours" class="dropdown-item">Parcours</a></li>
-                                      <li class="dropdown"><a href="#exppro" class="dropdown-item">Expérience proffessionnelle</a></li>                                
-                                  </ul>  
-                              </li>
-                              <li class="nav-item"><a href="projet.html" class="nav-link d-inline text-white">Mes projets</a></li>
-                              <li class="nav-item"><a href="contact.html" class="nav-link d-inline text-white">Me contacter</a></li>
-                          </ul>                                             
-                      </div>                 
-                  </div>
-                      <select style="float: right; border: none;" class="bg-transparent text-light d-block-inline">      
-                          <option class="bg-light text-primary">🌏English(en)</option>
-                          <option class="bg-light text-primary">🌏Français(fr)</option>
-                      </select>   
-                  <div width="100%" height="100px" class="bg-light"></div>           
-              </nav>                               
-          </header>
-        <br><br>
-  <div class="py-5 text-center bg-light text-dark">
-    <div class="container">
-      <h1 class="display-4">À propos de moi</h1>
-      <p class="lead">Découvrez mes compétences, mes formations et mes centres d’intérêts</p>
-    </div>
-  </div>
-
-  <section class="container my-5" id="moi">
-    <div class="row align-items-center g-4">
-      <div class="col-md-4 text-center">
-
-        <img src="images/photo1.png" class="img-fluid rounded border border-light" alt="Ma Photo">
-      </div>
-      <div class="col-md-8">
-        <h2>Profil</h2>
-        <p class="lead">
-          Je suis TAKOUGNADI E. René, dit <em>KingBrain</em> j'habite a kara. Age de 18 ans,
-          Je suis passionné par l’apprentissage et le développement de nouvelles compétences dans le domaine du numerique.  
-          Je m'intéresse particulièrement au le développement web, la technologie, IA et la big data et le design.  
-          Curieux et motivé, j’aime relever des défis et travailler sur des projets qui font la différence.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <main class="container my-5">
-    <div class="row g-4">
-
-      <!-- Compétences -->
-      <div class="col-md-4" id="comp">
-        <div class="card bg-warning text-dark h-100">
-          <div class="card-body">
-            <h3 class="card-title text-dark">Compétences</h3>
-            <ul class="list-group list-group-flush mt-3">
-              <li class="list-group-item bg-primary text-white border-0">Python, JavaScript, SQL</li>
-              <li class="list-group-item bg-primary text-white border-0">Certisage cables reseaux</li>
-              <li class="list-group-item bg-primary text-white border-0">Développement web et mobile</li>
-              <li class="list-group-item bg-primary text-white border-0">Gestion du temps</li>
-              <li class="list-group-item bg-primary text-white border-0">Capacité à travailler sous pression</li>
-              <li class="list-group-item bg-primary text-white border-0">Gestion de projets et travail en équipe</li>
-              <li class="list-group-item bg-primary text-white border-0">Résolution de problèmes et adaptabilité</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <!-- Formations -->
-      <div class="col-md-4" id="parcours">
-        <div class="card bg-warning text-dark h-100">
-          <div class="card-body">
-            <h3 class="card-title">Parcours Académique</h3>
-            <ul class="list-group list-group-flush mt-3">
-              <li class="list-group-item bg-primary text-white border-0">🗓️En cours: <br>licence proffessionnelle en Devellopement web et mobile
-                <br> Université de Kara  
-              </li>
-              <li class="list-group-item bg-primary text-white border-0"> 🗓️2022-2025: <br> second cycle du secondaire, BAC <br> College chaminade kara</li>
-              <li class="list-group-item bg-primary text-white border-0">🗓️2018-2022: <br> Premier cycle du secondaire, BEPC <br> Lycee Dongoyo</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card bg-warning text-dark h-100">
-          <div class="card-body">
-            <h3 class="card-title" id="ci">Centres d’intérêt</h3>
-            <ul class="list-group list-group-flush mt-3">
-              <li class="list-group-item bg-primary text-white border-0">Technologie et innovation</li>
-              <li class="list-group-item bg-primary text-white border-0">Projets communautaires</li>
-              <li class="list-group-item bg-primary text-white border-0">Devellopement personnelle</li>
-              <li class="list-group-item bg-primary text-white border-0">Voyages et découverte de nouvelles cultures</li>
-              <li class="list-group-item bg-primary text-white border-0">Sports et activités créatives</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card bg-warning text-dark h-100">
-          <div class="card-body">
-            <h3 class="card-title">Qualité</h3>
-            <ul class="list-group list-group-flush mt-3">
-              <li class="list-group-item bg-primary text-white border-0">Ponctualité</li>
-              <li class="list-group-item bg-primary text-white border-0">Dynamisme</li>
-              <li class="list-group-item bg-primary text-white border-0">Fiabilité</li>
-              <li class="list-group-item bg-primary text-white border-0">Créativité</li>
-              <li class="list-group-item bg-primary text-white border-0">Respect</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </main>
-
-  <section  id="exppro" class="container my-5">
-    <div class="row align-items-center g-4">
-      <h2 class="text-center">EXPERIENCE PROFFESSIONNELLE</h2>
-      
-      <div class="col-md-8">
-        <h2>Agent Moov Africa</h2>
-        <p class="lead">
-          Vente et identification rapide des cate SIM pour la societe de telecommunication moov africa togo
-          pendant la periode des festivite <a href="#">Evala</a> en pays Kabye dans la region de la kozah <br>
-          🗓️Juillet 2025
-        </p>
-      </div>
-      <div class="col-md-4 text-center">
-        <img src="images/photo4.png" class="img-fluid rounded border border-light" alt="Ma Photo dans moov">
-        <a href="">moovafrica</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="container my-5">
-    <div class="row align-items-center g-4">
-
-      <div class="col-md-4 text-center">
-        <img src="images/photo5.jpg" class="img-fluid rounded border border-light" alt="Ma Photo dans moov">
-       
-      </div>
-      
-      <div class="col-md-8">
-        <h2>Technicien audiovisuel</h2>
-        <p class="lead">
-          <ul>
-            <li>Montagne et gestion de la sonorisation</li>
-            <li>Live streaming évenementiel</li>
-            <li>Photoshooting évenementiel</li>
-            <li>Traitement et montage vidéo</li>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#182a45">
+    <title>About | René Takougnadi</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="site.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar navbar-expand-lg container" aria-label="Main navigation">
+        <a class="navbar-brand" href="index.html">RENÉ TAKOUGNADI</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="a_propos.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="projet.html">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
           </ul>
-        </p>
-      </div>
-      
-    </div>
-  </section>
+        </div>
+      </nav>
+    </header>
 
-    <footer class="text-center p-3" style="background-color: #002f66; color: white;">
-      <div style="float: left;" class="d-inline">
-          <a href="https://univ-kara.org/">
-              <img height="40px" src="images/logouk.png" alt="universite de kara">
-          </a>
-          <span class="h5">| KingBrain</span>
-      </div>
-      <div>
-          <div style="float: right;">
-              <a href="mailto:takougnadie.rene@gmail.com" target="_blank"><img class="rounded" width="30px" src="images/gmail.png" alt="mail"></a>
-              <a href="https://www.linkedin.com/in/essozimna-ren%C3%A9-takougnadi-261303391/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BmwNUNf1jSlqGLLyle1q9UQ%3D%3D" target="_blank">
-                  <img class="rounded" src="images/linkdin.jpg" alt="linkdin" width="30px">
-              </a>
-              <a href="https://web.facebook.com/stories/create/" target="_blank">
-                  <img class="rounded" src="images/facebook.jpg" alt="facebook" width="30px">
-              </a>
-              <a href="https://wa.me/22897166139" target="_blank">
-                  <img class="rounded" src="images/whatsapp.jpg" alt="whatsapp" width="30px">
-              </a>
-              <a href="https://t.me/Kingbrain2" target="_blank">
-                  <img class="rounded" src="images/telegram.jpg" alt="telegram" width="30px">
-              </a>
-                    <a href="https://www.youtube.com/@RenéTakougnadi" target="_blank">
-                  <img class="rounded" src="images/youtube.jpg" alt="youtube" width="30px">
-              </a>
-              <a href="https://www.tiktok.com/@renetakougnadi" target="_blank">
-                  <img class="rounded" src="images/tiktok.jpg" alt="tiktok" width="30px">
-              </a>
+    <main>
+      <section class="page-heading">
+        <div class="container">
+          <span class="eyebrow">A little about me</span>
+          <h1>Curiosity in action.</h1>
+          <p>My background, skills, experience, and the things that keep me inspired.</p>
+        </div>
+      </section>
+
+      <section class="container section-space" id="profile">
+        <div class="row align-items-center g-5">
+          <div class="col-md-4 text-center">
+            <img src="images/photo1.png" class="img-fluid rounded-4 shadow" alt="Portrait of René Takougnadi">
           </div>
-      </div>            
-      <br><br><hr>
-      <p class="d-inline">&copy; copyright 2026-rené Takougnadi | KingBrain | takougnadie.rene@gmail.com | mention légal Tout droit reservé</p><br>        
+          <div class="col-md-8">
+            <span class="eyebrow">Profile</span>
+            <h2 class="section-title">Hello, I’m René — also known as <em>KingBrain</em>.</h2>
+            <p class="lead muted">I live in Kara, Togo, and I’m passionate about learning and building new skills in the digital world. I’m especially interested in web development, technology, artificial intelligence, big data, and design. Curious and motivated, I enjoy taking on challenges and working on projects that make a difference.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container pb-5">
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4" id="skills">
+            <article class="surface-card">
+              <h2 class="h4">Skills</h2>
+              <ul>
+                <li>Python, JavaScript, and SQL</li>
+                <li>Network cabling and installation</li>
+                <li>Web and mobile development</li>
+                <li>Time management and working under pressure</li>
+                <li>Project management and teamwork</li>
+                <li>Problem-solving and adaptability</li>
+              </ul>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4" id="education">
+            <article class="surface-card">
+              <h2 class="h4">Education</h2>
+              <ul>
+                <li><strong>Currently:</strong> Professional Bachelor’s degree in Web and Mobile Development, University of Kara</li>
+                <li><strong>2022–2025:</strong> Upper secondary education, Baccalaureate, Chaminade College, Kara</li>
+                <li><strong>2018–2022:</strong> Lower secondary school certificate (BEPC), Dongoyo High School</li>
+              </ul>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="surface-card">
+              <h2 class="h4">Interests</h2>
+              <ul>
+                <li>Technology and innovation</li>
+                <li>Community projects</li>
+                <li>Personal development</li>
+                <li>Travel and discovering new cultures</li>
+                <li>Sports and creative activities</li>
+              </ul>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="surface-card">
+              <h2 class="h4">Strengths</h2>
+              <ul>
+                <li>Punctuality</li>
+                <li>Energy and initiative</li>
+                <li>Reliability</li>
+                <li>Creativity</li>
+                <li>Respect</li>
+              </ul>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-8" id="experience">
+            <article class="surface-card">
+              <span class="eyebrow">Professional experience</span>
+              <h2 class="h4">Moov Africa Agent <span class="muted">· July 2025</span></h2>
+              <p class="muted">Sold and registered SIM cards for Moov Africa Togo during the Evala festival in the Kozah region.</p>
+              <img src="images/photo4.png" class="img-fluid rounded-3 mb-4" alt="René working with Moov Africa">
+              <h3 class="h5">Audiovisual Technician</h3>
+              <ul>
+                <li>Stage setup and sound system management</li>
+                <li>Live event streaming</li>
+                <li>Event photography</li>
+                <li>Video editing and production</li>
+              </ul>
+              <img src="images/photo5.jpg" class="img-fluid rounded-3 mt-2" alt="Audiovisual event production">
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row align-items-center gy-4">
+          <div class="col-md-6 d-flex align-items-center gap-3">
+            <a href="https://www.alueducation.com/" target="_blank" rel="noopener noreferrer" aria-label="African Leadership University website"><img class="alu-logo" src="images/alu-logo.png" alt="African Leadership University"></a>
+            <span>Learning, leading, and building for Africa.</span>
+          </div>
+          <div class="col-md-6 d-flex justify-content-md-end">
+            <div class="social-links" aria-label="Social media">
+              <a href="mailto:takougnadie.rene@gmail.com" aria-label="Email René"><img src="images/gmail.png" alt=""></a>
+              <a href="https://www.linkedin.com/in/essozimna-ren%C3%A9-takougnadi-261303391/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><img src="images/linkdin.jpg" alt=""></a>
+              <a href="https://wa.me/22897166139" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><img src="images/whatsapp.jpg" alt=""></a>
+              <a href="https://www.youtube.com/@RenéTakougnadi" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><img src="images/youtube.jpg" alt=""></a>
+              <a href="https://www.tiktok.com/@renetakougnadi" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><img src="images/tiktok.jpg" alt=""></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-meta mt-4">&copy; 2026 René Takougnadi · KingBrain · <a href="mailto:takougnadie.rene@gmail.com">takougnadie.rene@gmail.com</a></div>
+      </div>
     </footer>
+    <script src="bootstrap.bundle.min.js"></script>
   </body>
 </html>
